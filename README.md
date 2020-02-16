@@ -1,2 +1,3 @@
 # bootcamp-gympoint
-Final test from Rocketseat bootcamp.
+
+Gym point app for the Rocketseat bootcamp final challenge.
