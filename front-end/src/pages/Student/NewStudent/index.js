@@ -17,20 +17,9 @@ export default function NewStudent() {
         email: Yup.string()
             .email('Insira um e-mail válido')
             .required('O e-mail é obrigatório'),
-        idade: Yup.number()
-            .required()
-            .positive()
-            .integer(),
-        peso: Yup.number()
-            .nullable()
-            .typeError('Peso precisa ser um número')
-            .transform((cv, ov) => (ov === '' ? null : cv))
-            .positive(),
-        altura: Yup.number()
-            .nullable()
-            .typeError('Altura precisa ser um número')
-            .transform((cv, ov) => (ov === '' ? null : cv))
-            .positive(),
+        idade: Yup.number().required('A idade é obrigatória!'),
+        peso: Yup.number().required('O peso é obrigatório!'),
+        altura: Yup.number().required('A altura é obrigatória!'),
     });
 
     // TODO Criar um validador para mostrar se o email já existe!
@@ -41,7 +30,6 @@ export default function NewStudent() {
 
             toast.success('Sucesso ao criar o cadastro!');
             history.push('/');
-            console.tron.log(data);
         } catch (err) {
             toast.error('Erro ao criar o cadastro!');
         }

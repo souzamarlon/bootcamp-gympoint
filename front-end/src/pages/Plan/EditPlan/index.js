@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Form, Input } from '@rocketseat/unform';
 
+import { toast } from 'react-toastify';
+
 import history from '~/services/history';
 import { formatPrice } from '~/util/format';
 
@@ -15,10 +17,14 @@ export default function EditPlan({ match }) {
 
     const [id] = useState(match.params.id);
 
-    function handleSubmit(data) {
-        api.put(`plans/${id}`, data);
-        // history.push('/');
-        // console.tron.log(data);
+    async function handleSubmit(data) {
+        try {
+            api.put(`plans/${id}`, data);
+            toast.success('Sucesso ao editar o plano!');
+            history.push('/plans');
+        } catch (err) {
+            toast.error('Erro ao editar o plano!');
+        }
     }
 
     useEffect(() => {

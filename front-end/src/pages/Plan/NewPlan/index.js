@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import { Link } from 'react-router-dom';
 import { Form, Input } from '@rocketseat/unform';
+import { toast } from 'react-toastify';
 
 import history from '~/services/history';
 
@@ -16,9 +17,13 @@ export default function NewPlan() {
     ]);
 
     async function handleSubmit(data) {
-        await api.post('plans', data);
-        history.push('/plans');
-        console.tron.log(data);
+        try {
+            await api.post('plans', data);
+            toast.success('Sucesso ao criar o plano!');
+            history.push('/plans');
+        } catch (err) {
+            toast.error('Erro ao criar o plano!');
+        }
     }
     async function addDuration(duration) {
         setPlanDetail({

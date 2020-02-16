@@ -14,7 +14,7 @@ export default function MemberShip() {
     async function handleDelete(id) {
         if (window.confirm('Você realmente quer deletar?')) {
             await api.delete(`memberships/${id}`);
-            history.push('/student');
+            history.push('/membership');
         }
     }
 
