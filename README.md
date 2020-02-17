@@ -52,15 +52,24 @@ Front-end:
 - [reactjs-popup](https://github.com/yjose/reactjs-popup)
 - [yup](https://github.com/jquense/yup)
 - [prettier](https://prettier.io/)
-
+- [reactotron](https://github.com/infinitered/reactotron)
 
 React native:
 - [React Native](https://facebook.github.io/react-native/)
 - [react-navigation](https://reactnavigation.org/)
 - [Redux](https://redux.js.org/)
-
-
+- [Immer](https://github.com/immerjs/immer)
+- [Axios](https://github.com/axios/axios)
+- [date-fns](https://date-fns.org/)
+- [prop-types](https://github.com/facebook/prop-types)
+- [react-native-gesture-handler](https://github.com/software-mansion/react-native-gesture-handler)
+- [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient)
+- [react-native-reanimated](https://github.com/software-mansion/react-native-reanimated)
+- [react-native-safe-area-context](https://github.com/th3rdwave/react-native-safe-area-context)
+- [reactotron](https://github.com/infinitered/reactotron)
 - [Reactotron](https://infinite.red/reactotron)
+
+Front-end, Back-end, React native:
 - [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 -
 ## :information_source: How To Use
