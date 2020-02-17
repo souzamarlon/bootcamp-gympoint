@@ -94,7 +94,7 @@ $ react-native start
 # Run the app (Android) - App was just tested in an Android smartphones
 $ react-native run-android
 ```
-
+---
 Created by Marlon da Silva Souza :wave: [LinkedIn!](https://www.linkedin.com/in/marlonssouza/)
 
 [nodejs]: https://nodejs.org/
