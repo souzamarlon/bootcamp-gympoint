@@ -5,7 +5,7 @@
 </h1>
 
 <h4 align="center">
-  A FullStack App to help the Gym management and clients. The Gym can do the students enrollment and create plans and the clients can controll your checkins in the Gym and they can ask for help using the mobile app.
+  A FullStack App to help the Gym management and clients. The Gym can use the students enrollment,  and create plans and the clients can controll your checkins in the Gym and they can ask for help using the mobile app.
 </h4>
 
 
@@ -27,6 +27,20 @@ Back-end:
 - [bcrypt.js](https://github.com/dcodeIO/bcrypt.js)
 - [cors](https://github.com/expressjs/cors)
 - [dotenv](https://github.com/motdotla/dotenv)
+- [express](https://github.com/expressjs/express)
+- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken)
+- [multer](https://github.com/expressjs/multer)
+- [pg](https://github.com/brianc/node-postgres)
+- [nodemailer](https://github.com/nodemailer/nodemailer)
+- [sequelize](https://github.com/sequelize/sequelize)
+- [yup](https://github.com/jquense/yup)
+
+
+
+
+
+Front-end:
+
 
 
 
@@ -49,14 +63,14 @@ From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/lukemorales/gostack-fullstack-meetapp
+$ git clone https://github.com/souzamarlon/bootcamp-gympoint
 
 # Go into the repository
-$ cd gostack-fullstack-meetapp
+$ cd bootcamp-gympoint
 
 # Install dependencies for the backend
 $ cd backend
-$ yarn install
+$ yarn
 
 # Run migrations to your database
 $ yarn migrate
@@ -67,20 +81,17 @@ $ yarn queue
 
 # Install dependencies for the frontend and run the server
 $ cd frontend
-$ yarn install
+$ yarn
 $ yarn start
 
 # Install dependencies for the mobile
 $ cd mobile
-$ yarn install
+$ yarn
 
 # Start React Native Server
 $ react-native start
 
-# Run the app (iOS)
-$ react-native run-ios --simulator="iPhone XS Max"
-
-# Run the app (Android)
+# Run the app (Android) - App was just tested in an Android smartphones
 $ react-native run-android
 ```
 
