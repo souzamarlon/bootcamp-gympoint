@@ -17,7 +17,7 @@
 
 ## :rocket: Technologies
 
-This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/gostack) with the following technologies:
+This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/gostack) with the following amazing technologies:
 
 Back-end:
 - [NodeJS](https://nodejs.org)
@@ -43,9 +43,15 @@ Front-end:
 - [material-ui](https://github.com/mui-org/material-ui)
 - [@rocketseat/unform](https://github.com/Rocketseat/unform)
 - [history](https://github.com/ReactTraining/history)
-- [Immer](https://github.com/immerjs/immer)
-
-
+- [styled-components](https://www.styled-components.com/)
+- [prop-types](https://github.com/facebook/prop-types)
+- [react-datepicker](https://github.com/Hacker0x01/react-datepicker)
+- [Redux-Saga](https://redux-saga.js.org/)
+- [react-select](https://github.com/JedWatson/react-select)
+- [react-toastify](https://github.com/fkhadra/react-toastify)
+- [reactjs-popup](https://github.com/yjose/reactjs-popup)
+- [yup](https://github.com/jquense/yup)
+- [prettier](https://prettier.io/)
 
 
 
@@ -53,15 +59,14 @@ React native:
 - [React Native](https://facebook.github.io/react-native/)
 - [react-navigation](https://reactnavigation.org/)
 - [Redux](https://redux.js.org/)
-- [Redux-Saga](https://redux-saga.js.org/)
-- [styled-components](https://www.styled-components.com/)
+
 
 - [Reactotron](https://infinite.red/reactotron)
 - [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 -
 ## :information_source: How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer and the [GoBarber API](https://github.com/lukemorales/gostack-fullstack-meetapp).
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer.
 You'll also need to setup and run a Postgres and a Redis database and insert the access informations into a .env file, based on a .env.example file that is provided in the backend folder.
 From your command line:
 
