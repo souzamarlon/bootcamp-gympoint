@@ -1,7 +1,7 @@
 <h1 align="center">
     <img alt="Gympoint App" src="https://github.com/souzamarlon/bootcamp-gympoint/blob/master/front-end/src/assets/logo.png" />
     <br>
-    Gympoint app for the Rocketseat bootcamp final challenge.
+    Gympoint app for Rocketseat bootcamp final challenge.
 </h1>
 
 <h4 align="center">
@@ -52,7 +52,6 @@ Front-end:
 - [reactjs-popup](https://github.com/yjose/reactjs-popup)
 - [yup](https://github.com/jquense/yup)
 - [prettier](https://prettier.io/)
-
 
 
 React native:
