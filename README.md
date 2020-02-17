@@ -95,13 +95,7 @@ $ react-native start
 $ react-native run-android
 ```
 
-## :memo: License
-
-This project is under the MIT license. See the [LICENSE](https://github.com/lukemorales/gostack-fullstack-meetapp/blob/master/LICENSE) for more information.
-
----
-
-Made with ♥ by Marlon da Silva Souza :wave: [Get in touch!](https://www.linkedin.com/in/marlonssouza/)
+Created by Marlon da Silva Souza :wave: [LinkedIn!](https://www.linkedin.com/in/marlonssouza/)
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
