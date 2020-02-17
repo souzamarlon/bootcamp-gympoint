@@ -108,7 +108,7 @@ $ yarn
 # Start React Native Server
 $ react-native start
 
-# Run the app (Android) - App was just tested in an Android smartphones
+# Run the app (Android) - This app was just tested in an Android smartphone.
 $ react-native run-android
 ```
 ---
