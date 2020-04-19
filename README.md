@@ -15,9 +15,9 @@
   <a href="#memo-license">License</a>
 </p>
 
-## :rocket: Technologies
+## :rocket: Libraries and Technologies
 
-This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/gostack) with the following amazing technologies:
+This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketseat.com.br/gostack) with the following amazing Libraries and Technologies:
 
 Back-end:
 - [NodeJS](https://nodejs.org)
@@ -89,10 +89,12 @@ $ cd bootcamp-gympoint
 $ cd backend
 $ yarn
 
-It is necessary to create the database in postgres before to run the yarn sequelize db:migrate.
+# Note:
+# It is necessary to create the database in postgres and then you can execute yarn sequelize db:migrate.
 
-# Run migrations to your database
+# Run migrations and the seed to your database:
 $ yarn sequelize db:migrate
+$ yarn sequelize db:seed:all
 
 # Run the backend server
 $ yarn dev
@@ -103,9 +105,14 @@ $ cd frontend
 $ yarn
 $ yarn start
 
+# Note: Available just for Android smartphones.
 # Install dependencies for the mobile
 $ cd mobile
 $ yarn
+
+# Note:
+# It is necessary to change the IP address in the api.js file to IP address where you installed the back end.
+# You can find the api file at src/services/api.js
 
 # Start React Native Server
 $ react-native start
