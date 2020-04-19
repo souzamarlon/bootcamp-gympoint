@@ -5,7 +5,7 @@
 </h1>
 
 <h4 align="center">
-  A FullStack App to help the Gym management and clients. The Gym can use for students enrollment,  and create plans and the clients can controll your checkins in the Gym and they can ask for help using the mobile app.
+  A FullStack App to help the Gym management and clients.
 </h4>
 
 
