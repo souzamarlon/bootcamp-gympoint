@@ -4,6 +4,14 @@
     Gympoint app for Rocketseat bootcamp final challenge.
 </h1>
 
+![](https://img.shields.io/github/package-json/v/souzamarlon/bootcamp-gympoint.svg)
+![](https://img.shields.io/github/last-commit/souzamarlon/bootcamp-gympoint.svg?color=red)
+![](https://img.shields.io/github/languages/top/souzamarlon/bootcamp-gympoint.svg?color=yellow)
+![](https://img.shields.io/github/languages/count/souzamarlon/bootcamp-gympoint.svg?color=lightgrey)
+![](https://img.shields.io/github/languages/code-size/souzamarlon/bootcamp-gympoint.svg)
+![](https://img.shields.io/github/repo-size/souzamarlon/bootcamp-gympoint.svg?color=blueviolet)
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+
 <h4 align="center">
   A FullStack App to help the Gym management and clients.
 </h4>
