@@ -4,7 +4,6 @@
     Gympoint app for Rocketseat bootcamp final challenge.
 </h1>
 
-![](https://img.shields.io/github/package-json/v/souzamarlon/bootcamp-gympoint.svg)
 ![](https://img.shields.io/github/last-commit/souzamarlon/bootcamp-gympoint.svg?color=red)
 ![](https://img.shields.io/github/languages/top/souzamarlon/bootcamp-gympoint.svg?color=yellow)
 ![](https://img.shields.io/github/languages/count/souzamarlon/bootcamp-gympoint.svg?color=lightgrey)
