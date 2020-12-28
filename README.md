@@ -17,9 +17,9 @@ In the web application you will be able to manage the actual and olds students p
 The mobile app will be only useful to students from Gym because they will have an area to do the check-ins and ask for help.
 
 I used the following stacks to develop this project:
-- Front end: React.
-- Mobile : React Native.
-- Back end: Node js
+Front end: React.
+Mobile : React Native.
+Back end: Node js
 </h4>
 
 
