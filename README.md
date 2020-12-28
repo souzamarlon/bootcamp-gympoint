@@ -12,7 +12,14 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 
 <h4 align="center">
-  A FullStack App to help the Gym management and clients.
+In the web application you will be able to manage the actual and olds students personal information, the plans available to the students, the enrollments and you can answer the students doubts.
+
+The mobile app will be only useful to students from Gym because they will have an area to do the check-ins and ask for help.
+
+I used the following stacks to develop this project:
+- Front end: React.
+- Mobile : React Native.
+- Back end: Node js
 </h4>
 
 
