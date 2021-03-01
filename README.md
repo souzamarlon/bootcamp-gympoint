@@ -12,11 +12,10 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 
 <h4 align="center">
-In the web application you will be able to manage the actual and olds students personal information, the plans available to the students, the enrollments and you can answer the students doubts.
+This web application provides the establishment a tool to manage the members personal information, gym plans, enrollments, and an area to answer their questions.
+Mobile app will allow the members to do the check-ins and ask for help if needed.
 
-The mobile app will be only useful to students from Gym because they will have an area to do the check-ins and ask for help.
-
-I used the following stacks to develop this project:
+Stacks used to develop this project:
 - Front end: React.
 - Mobile : React Native.
 - Back end: Node js
